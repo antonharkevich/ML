@@ -1,0 +1,1796 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>5d9761ec6e1248d5854d2b670c29f5d2</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="180db66c-7b6d-4ee8-8721-ea0a42b0ab92" class="cell code"
+data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#necessary imports</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> binance.client <span class="im">import</span> Client</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> time</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> MinMaxScaler</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow <span class="im">as</span> tf</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> Sequential</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> Dense, Dropout, LSTM</span></code></pre></div>
+</div>
+<div id="e45274b2-9a20-4a40-a08f-768eac697da3" class="cell code"
+data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#client for work with binance</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>client <span class="op">=</span> Client()</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co">#all history for model </span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>lookback_days <span class="op">=</span> <span class="dv">60</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co">#8 hours previous information for each prediction</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>lookback_interval <span class="op">=</span> <span class="dv">16</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co">#bitcoin</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>symbol <span class="op">=</span> <span class="st">&#39;BTCUSDT&#39;</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="co">#information with a price in 30 minute steps</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>interval <span class="op">=</span> client.KLINE_INTERVAL_30MINUTE    </span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="co">#initialize dataframe with data from binance</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>all_data <span class="op">=</span> pd.DataFrame()</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="co">#start and end time for 60 days history</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>end_time <span class="op">=</span> pd.Timestamp.now()</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>start_time <span class="op">=</span> end_time <span class="op">-</span> pd.Timedelta(days <span class="op">=</span> lookback_days)</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> start_time <span class="op">&lt;</span> end_time:</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    start_str <span class="op">=</span> <span class="bu">str</span>(<span class="bu">int</span>(start_time.timestamp() <span class="op">*</span> <span class="dv">1000</span>))</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    <span class="co">#take 1000 lines of information</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    klines <span class="op">=</span> client.get_historical_klines(symbol, interval, start_str, limit <span class="op">=</span> <span class="dv">1000</span>)</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> klines:</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>    <span class="co">#create dataframe with data</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>    data <span class="op">=</span> pd.DataFrame(klines, columns <span class="op">=</span> [</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>                                            <span class="st">&#39;timestamp&#39;</span>, <span class="st">&#39;open&#39;</span>, <span class="st">&#39;high&#39;</span>, <span class="st">&#39;low&#39;</span>, <span class="st">&#39;close&#39;</span>, <span class="st">&#39;volume&#39;</span>, <span class="st">&#39;close_time&#39;</span>, </span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>                                            <span class="st">&#39;quote_asset_volume&#39;</span>, <span class="st">&#39;number_of_trades&#39;</span>, <span class="st">&#39;taker_buy_base_asset_volume&#39;</span>,</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>                                            <span class="st">&#39;taker_buy_quote_asset_volume&#39;</span>, <span class="st">&#39;ignore&#39;</span></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>                                          ])</span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>    data[<span class="st">&#39;timestamp&#39;</span>] <span class="op">=</span> pd.to_datetime(data[<span class="st">&#39;timestamp&#39;</span>], unit<span class="op">=</span><span class="st">&#39;ms&#39;</span>)</span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>    data.set_index(<span class="st">&#39;timestamp&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>    data <span class="op">=</span> data.<span class="bu">apply</span>(pd.to_numeric, errors <span class="op">=</span> <span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>    all_data <span class="op">=</span> pd.concat([all_data, data])</span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>    <span class="co">#last datetime</span></span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>    start_time <span class="op">=</span> data.index[<span class="op">-</span><span class="dv">1</span>] <span class="op">+</span> pd.Timedelta(minutes <span class="op">=</span> <span class="dv">5</span>)</span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>    time.sleep(<span class="fl">0.5</span>)</span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a><span class="co">#sort data by timestamp</span></span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>btc <span class="op">=</span> all_data.sort_index().ffill()</span></code></pre></div>
+</div>
+<div id="9e5fcf57-8205-438e-a406-c95df5a6f782" class="cell code"
+data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#example of bitcoin data with prices</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>btc</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>open</th>
+      <th>high</th>
+      <th>low</th>
+      <th>close</th>
+      <th>volume</th>
+      <th>close_time</th>
+      <th>quote_asset_volume</th>
+      <th>number_of_trades</th>
+      <th>taker_buy_base_asset_volume</th>
+      <th>taker_buy_quote_asset_volume</th>
+      <th>ignore</th>
+    </tr>
+    <tr>
+      <th>timestamp</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2025-02-15 22:30:00</th>
+      <td>97450.01</td>
+      <td>97566.06</td>
+      <td>97432.50</td>
+      <td>97545.76</td>
+      <td>137.08232</td>
+      <td>1739660399999</td>
+      <td>1.336402e+07</td>
+      <td>47082</td>
+      <td>69.97286</td>
+      <td>6.821113e+06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-02-15 23:00:00</th>
+      <td>97545.77</td>
+      <td>97624.00</td>
+      <td>97426.56</td>
+      <td>97591.36</td>
+      <td>250.77348</td>
+      <td>1739662199999</td>
+      <td>2.444940e+07</td>
+      <td>63457</td>
+      <td>126.42784</td>
+      <td>1.232573e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-02-15 23:30:00</th>
+      <td>97591.35</td>
+      <td>97634.22</td>
+      <td>97519.24</td>
+      <td>97569.66</td>
+      <td>102.87179</td>
+      <td>1739663999999</td>
+      <td>1.003692e+07</td>
+      <td>26596</td>
+      <td>37.43649</td>
+      <td>3.652243e+06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-02-16 00:00:00</th>
+      <td>97569.67</td>
+      <td>97700.88</td>
+      <td>97554.65</td>
+      <td>97674.97</td>
+      <td>74.99016</td>
+      <td>1739665799999</td>
+      <td>7.321794e+06</td>
+      <td>24522</td>
+      <td>41.51239</td>
+      <td>4.052672e+06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-02-16 00:30:00</th>
+      <td>97674.97</td>
+      <td>97704.47</td>
+      <td>97584.90</td>
+      <td>97594.57</td>
+      <td>71.66860</td>
+      <td>1739667599999</td>
+      <td>6.998170e+06</td>
+      <td>19730</td>
+      <td>28.50778</td>
+      <td>2.783864e+06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 17:00:00</th>
+      <td>85048.54</td>
+      <td>85481.16</td>
+      <td>85022.01</td>
+      <td>85304.37</td>
+      <td>536.19474</td>
+      <td>1744824599999</td>
+      <td>4.571748e+07</td>
+      <td>83115</td>
+      <td>323.85310</td>
+      <td>2.761330e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 17:30:00</th>
+      <td>85304.37</td>
+      <td>85500.00</td>
+      <td>83275.00</td>
+      <td>83281.21</td>
+      <td>2128.39829</td>
+      <td>1744826399999</td>
+      <td>1.792253e+08</td>
+      <td>252444</td>
+      <td>837.64934</td>
+      <td>7.055313e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 18:00:00</th>
+      <td>83281.21</td>
+      <td>84472.31</td>
+      <td>83276.00</td>
+      <td>84386.81</td>
+      <td>1437.97262</td>
+      <td>1744828199999</td>
+      <td>1.205844e+08</td>
+      <td>247700</td>
+      <td>866.98346</td>
+      <td>7.266248e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 18:30:00</th>
+      <td>84386.82</td>
+      <td>84400.09</td>
+      <td>83613.82</td>
+      <td>84029.97</td>
+      <td>613.80468</td>
+      <td>1744829999999</td>
+      <td>5.155434e+07</td>
+      <td>152449</td>
+      <td>253.85967</td>
+      <td>2.132485e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 19:00:00</th>
+      <td>84029.98</td>
+      <td>84226.00</td>
+      <td>84018.06</td>
+      <td>84165.99</td>
+      <td>49.55058</td>
+      <td>1744831799999</td>
+      <td>4.168894e+06</td>
+      <td>12000</td>
+      <td>32.31417</td>
+      <td>2.718716e+06</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+<p>2874 rows × 11 columns</p>
+</div>
+</div>
+</div>
+<div id="26667e0b-b091-450b-b17f-8237cb04615d" class="cell code"
+data-execution_count="4">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#split data to train and test</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>test_percent <span class="op">=</span> <span class="fl">0.2</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>train_size <span class="op">=</span> <span class="bu">int</span>(<span class="bu">len</span>(btc) <span class="op">*</span> (<span class="dv">1</span> <span class="op">-</span> test_percent))</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>train_data <span class="op">=</span> btc.iloc[:train_size]</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>test_data <span class="op">=</span> btc.iloc[train_size:]</span></code></pre></div>
+</div>
+<div id="d9f21f46-a28c-41ad-9502-efb765b97a08" class="cell code"
+data-execution_count="5">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#scaling data</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> MinMaxScaler()</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>scaled_train <span class="op">=</span> scaler.fit_transform(train_data[[<span class="st">&#39;close&#39;</span>]])</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>scaled_test <span class="op">=</span> scaler.transform(test_data[[<span class="st">&#39;close&#39;</span>]])</span></code></pre></div>
+</div>
+<div id="50efd2b1-21ed-419c-a83f-862aa1e0cada" class="cell code"
+data-execution_count="6">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">#create lists of data to prediction and lists with correct predictions to train LSTM model</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>x_train <span class="op">=</span> []</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>y_train <span class="op">=</span> []</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>x_test <span class="op">=</span> []</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>y_test <span class="op">=</span> []</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(lookback_interval, <span class="bu">len</span>(scaled_train)):</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    x_train.append(scaled_train[i<span class="op">-</span>lookback_interval:i])</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    y_train.append(scaled_train[i])</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(lookback_interval, <span class="bu">len</span>(scaled_test)):</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>    x_test.append(scaled_test[i<span class="op">-</span>lookback_interval:i])</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>    y_test.append(scaled_test[i])   </span></code></pre></div>
+</div>
+<div id="caf71b03-128f-42f2-ba46-4069f388644a" class="cell code"
+data-execution_count="7">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#convert lists to np arrays</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>x_train <span class="op">=</span> np.array(x_train)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>y_train <span class="op">=</span> np.array(y_train)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>x_test <span class="op">=</span> np.array(x_test)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>y_test <span class="op">=</span> np.array(y_test)</span></code></pre></div>
+</div>
+<div id="4c2fc4a7-1345-4911-b1f1-0a0fd84f22fa" class="cell code"
+data-execution_count="8">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co">#create LSTM model</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> Sequential()</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>model.add(LSTM(<span class="dv">96</span>, input_shape<span class="op">=</span>(lookback_interval, <span class="dv">1</span>), return_sequences<span class="op">=</span><span class="va">True</span>, kernel_initializer <span class="op">=</span> <span class="st">&#39;glorot_uniform&#39;</span>))</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>model.add(Dropout(<span class="fl">0.2</span>))</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>model.add(LSTM(<span class="dv">64</span>))</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>model.add(Dropout(<span class="fl">0.3</span>))</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>model.add(Dense(<span class="dv">1</span>, activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span>))</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a><span class="co">#compile LSTM model</span></span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>model.<span class="bu">compile</span>(optimizer<span class="op">=</span><span class="st">&#39;adam&#39;</span>, loss<span class="op">=</span><span class="st">&#39;mse&#39;</span>)</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a><span class="co">#train LSTM model</span></span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>model.fit(x_train, y_train, epochs<span class="op">=</span><span class="dv">20</span>, batch_size<span class="op">=</span><span class="dv">32</span>, validation_split<span class="op">=</span><span class="fl">0.1</span>)</span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a><span class="co">#calculate mean error on test data</span></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>mse <span class="op">=</span> model.evaluate(x_test, y_test)</span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Mean Squared Error: </span><span class="sc">{</span>mse<span class="sc">}</span><span class="ss">&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/20
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>D:\Users\userr\anaconda3\envs\py311\Lib\site-packages\keras\src\layers\rnn\rnn.py:200: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>65/65 ━━━━━━━━━━━━━━━━━━━━ 4s 18ms/step - loss: 0.0477 - val_loss: 0.0012
+Epoch 2/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 12ms/step - loss: 0.0044 - val_loss: 0.0014
+Epoch 3/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 13ms/step - loss: 0.0038 - val_loss: 0.0010
+Epoch 4/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 13ms/step - loss: 0.0041 - val_loss: 0.0011
+Epoch 5/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 13ms/step - loss: 0.0036 - val_loss: 0.0011
+Epoch 6/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 13ms/step - loss: 0.0037 - val_loss: 0.0020
+Epoch 7/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 15ms/step - loss: 0.0043 - val_loss: 8.7063e-04
+Epoch 8/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 14ms/step - loss: 0.0030 - val_loss: 8.7763e-04
+Epoch 9/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 14ms/step - loss: 0.0028 - val_loss: 0.0010
+Epoch 10/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 14ms/step - loss: 0.0030 - val_loss: 8.1183e-04
+Epoch 11/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 14ms/step - loss: 0.0027 - val_loss: 0.0012
+Epoch 12/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 13ms/step - loss: 0.0030 - val_loss: 0.0012
+Epoch 13/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 13ms/step - loss: 0.0031 - val_loss: 9.2280e-04
+Epoch 14/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 14ms/step - loss: 0.0028 - val_loss: 7.5751e-04
+Epoch 15/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 17ms/step - loss: 0.0023 - val_loss: 9.3792e-04
+Epoch 16/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 14ms/step - loss: 0.0031 - val_loss: 7.3867e-04
+Epoch 17/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 14ms/step - loss: 0.0027 - val_loss: 7.3744e-04
+Epoch 18/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 14ms/step - loss: 0.0023 - val_loss: 6.5067e-04
+Epoch 19/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 14ms/step - loss: 0.0023 - val_loss: 6.7305e-04
+Epoch 20/20
+65/65 ━━━━━━━━━━━━━━━━━━━━ 1s 18ms/step - loss: 0.0026 - val_loss: 6.3132e-04
+18/18 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step - loss: 9.8933e-04 
+Mean Squared Error: 0.0008630980737507343
+</code></pre>
+</div>
+</div>
+<div id="d9ab76d8-beaa-4b05-8b3b-e2fd057a0da2" class="cell code"
+data-execution_count="9">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co">#compare predictions with real data</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> model.predict(x_test)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>predictions_inv <span class="op">=</span> scaler.inverse_transform(predictions)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(predictions_inv[<span class="dv">0</span>:<span class="dv">5</span>])</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(predictions_inv[<span class="dv">554</span>:<span class="dv">559</span>])</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(test_data[[<span class="st">&#39;close&#39;</span>]][lookback_interval:])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>18/18 ━━━━━━━━━━━━━━━━━━━━ 1s 22ms/step 
+[[83958.19 ]
+ [83926.81 ]
+ [83888.58 ]
+ [83879.28 ]
+ [83862.305]]
+[[84911.56]
+ [85060.  ]
+ [84874.  ]
+ [84711.15]
+ [84530.76]]
+                        close
+timestamp                    
+2025-04-05 04:00:00  83838.19
+2025-04-05 04:30:00  83677.75
+2025-04-05 05:00:00  83850.00
+2025-04-05 05:30:00  83688.67
+2025-04-05 06:00:00  83617.99
+...                       ...
+2025-04-16 17:00:00  85304.37
+2025-04-16 17:30:00  83281.21
+2025-04-16 18:00:00  84386.81
+2025-04-16 18:30:00  84029.97
+2025-04-16 19:00:00  84165.99
+
+[559 rows x 1 columns]
+</code></pre>
+</div>
+</div>
+<div id="03a47e06-115d-41f5-a674-8748c799d6fa" class="cell code"
+data-execution_count="10">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co">#calculate mean prediction error on all historical data</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>historical_data <span class="op">=</span> btc</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>scaled_historical <span class="op">=</span> scaler.transform(historical_data[[<span class="st">&#39;close&#39;</span>]])</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>x_historical <span class="op">=</span> []</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>y_historical <span class="op">=</span> []</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(lookback_interval, <span class="bu">len</span>(scaled_historical)):</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>    x_historical.append(scaled_historical[i<span class="op">-</span>lookback_interval:i])</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>    y_historical.append(scaled_historical[i])</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>x_historical <span class="op">=</span> np.array(x_historical)</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>y_historical <span class="op">=</span> np.array(y_historical)</span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>historical_error <span class="op">=</span> []</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(y_historical)):</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>    scaled_prediction <span class="op">=</span> model.predict(np.array([x_historical[i]]),verbose<span class="op">=</span><span class="va">None</span>)</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>    prediction <span class="op">=</span> scaler.inverse_transform(scaled_prediction)[<span class="dv">0</span>][<span class="dv">0</span>]</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>    error <span class="op">=</span> <span class="bu">abs</span>(prediction <span class="op">-</span> (scaler.inverse_transform([y_historical[i]])[<span class="dv">0</span>][<span class="dv">0</span>]))</span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>    historical_error.append(error)</span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>np.array(historical_error).mean()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="10">
+<pre><code>np.float64(393.5349126355843)</code></pre>
+</div>
+</div>
+<div id="8b82ac90-8be1-4921-a4eb-e81069160f6e" class="cell code"
+data-execution_count="12">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Reading data for last 8 hour for actual price prediction</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>client <span class="op">=</span> Client()</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>lookback_interval <span class="op">=</span> <span class="dv">16</span></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>symbol <span class="op">=</span> <span class="st">&#39;BTCUSDT&#39;</span></span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>interval <span class="op">=</span> client.KLINE_INTERVAL_30MINUTE   </span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>all_data <span class="op">=</span> pd.DataFrame()</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>end_time <span class="op">=</span> pd.Timestamp.utcnow().tz_localize(<span class="va">None</span>) </span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>start_time <span class="op">=</span> end_time <span class="op">-</span> pd.Timedelta(hours <span class="op">=</span> <span class="dv">8</span>)</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> start_time <span class="op">&lt;</span> end_time:</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>    start_str <span class="op">=</span> <span class="bu">str</span>(<span class="bu">int</span>(start_time.timestamp() <span class="op">*</span> <span class="dv">1000</span>))</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>    klines <span class="op">=</span> client.get_historical_klines(symbol, interval, start_str, limit <span class="op">=</span> <span class="dv">1000</span>)</span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> klines:</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a>    data <span class="op">=</span> pd.DataFrame(klines, columns <span class="op">=</span> [</span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>                                            <span class="st">&#39;timestamp&#39;</span>, <span class="st">&#39;open&#39;</span>, <span class="st">&#39;high&#39;</span>, <span class="st">&#39;low&#39;</span>, <span class="st">&#39;close&#39;</span>, <span class="st">&#39;volume&#39;</span>, <span class="st">&#39;close_time&#39;</span>, </span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>                                            <span class="st">&#39;quote_asset_volume&#39;</span>, <span class="st">&#39;number_of_trades&#39;</span>, <span class="st">&#39;taker_buy_base_asset_volume&#39;</span>,</span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>                                            <span class="st">&#39;taker_buy_quote_asset_volume&#39;</span>, <span class="st">&#39;ignore&#39;</span></span>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>                                          ])</span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a>    data[<span class="st">&#39;timestamp&#39;</span>] <span class="op">=</span> pd.to_datetime(data[<span class="st">&#39;timestamp&#39;</span>], unit<span class="op">=</span><span class="st">&#39;ms&#39;</span>)</span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a>    data.set_index(<span class="st">&#39;timestamp&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a>    data <span class="op">=</span> data.<span class="bu">apply</span>(pd.to_numeric, errors <span class="op">=</span> <span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a>    all_data <span class="op">=</span> pd.concat([all_data, data])</span>
+<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a>    start_time <span class="op">=</span> data.index[<span class="op">-</span><span class="dv">1</span>] <span class="op">+</span> pd.Timedelta(minutes <span class="op">=</span> <span class="dv">5</span>)</span>
+<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-34"><a href="#cb16-34" aria-hidden="true" tabindex="-1"></a>    time.sleep(<span class="fl">0.5</span>)</span>
+<span id="cb16-35"><a href="#cb16-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-36"><a href="#cb16-36" aria-hidden="true" tabindex="-1"></a>btc <span class="op">=</span> all_data.sort_index().ffill()</span></code></pre></div>
+</div>
+<div id="2f378f3b-308b-4f27-804d-e42a93a8950b" class="cell code"
+data-execution_count="13">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#last 8 hours data example</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>btc</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>open</th>
+      <th>high</th>
+      <th>low</th>
+      <th>close</th>
+      <th>volume</th>
+      <th>close_time</th>
+      <th>quote_asset_volume</th>
+      <th>number_of_trades</th>
+      <th>taker_buy_base_asset_volume</th>
+      <th>taker_buy_quote_asset_volume</th>
+      <th>ignore</th>
+    </tr>
+    <tr>
+      <th>timestamp</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2025-04-16 11:30:00</th>
+      <td>83873.83</td>
+      <td>84127.05</td>
+      <td>83782.60</td>
+      <td>84048.11</td>
+      <td>203.06508</td>
+      <td>1744804799999</td>
+      <td>1.705654e+07</td>
+      <td>32579</td>
+      <td>110.09497</td>
+      <td>9.247317e+06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 12:00:00</th>
+      <td>84048.36</td>
+      <td>84262.00</td>
+      <td>84000.00</td>
+      <td>84180.65</td>
+      <td>306.75831</td>
+      <td>1744806599999</td>
+      <td>2.580588e+07</td>
+      <td>45521</td>
+      <td>178.11152</td>
+      <td>1.498462e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 12:30:00</th>
+      <td>84180.66</td>
+      <td>84213.53</td>
+      <td>83722.56</td>
+      <td>83757.72</td>
+      <td>353.91624</td>
+      <td>1744808399999</td>
+      <td>2.970409e+07</td>
+      <td>50130</td>
+      <td>137.08467</td>
+      <td>1.151072e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 13:00:00</th>
+      <td>83757.73</td>
+      <td>83800.28</td>
+      <td>83620.75</td>
+      <td>83725.66</td>
+      <td>256.32885</td>
+      <td>1744810199999</td>
+      <td>2.145699e+07</td>
+      <td>37715</td>
+      <td>111.84216</td>
+      <td>9.361987e+06</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 13:30:00</th>
+      <td>83725.67</td>
+      <td>84204.54</td>
+      <td>83512.20</td>
+      <td>83736.37</td>
+      <td>836.36482</td>
+      <td>1744811999999</td>
+      <td>7.017404e+07</td>
+      <td>134340</td>
+      <td>466.18532</td>
+      <td>3.912162e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 14:00:00</th>
+      <td>83736.36</td>
+      <td>84460.00</td>
+      <td>83714.31</td>
+      <td>84357.99</td>
+      <td>586.73049</td>
+      <td>1744813799999</td>
+      <td>4.939004e+07</td>
+      <td>95620</td>
+      <td>331.22164</td>
+      <td>2.787812e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 14:30:00</th>
+      <td>84357.99</td>
+      <td>84849.06</td>
+      <td>84263.98</td>
+      <td>84605.31</td>
+      <td>728.08601</td>
+      <td>1744815599999</td>
+      <td>6.157678e+07</td>
+      <td>101357</td>
+      <td>353.04618</td>
+      <td>2.986416e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 15:00:00</th>
+      <td>84605.30</td>
+      <td>85270.27</td>
+      <td>84502.02</td>
+      <td>85105.85</td>
+      <td>905.42217</td>
+      <td>1744817399999</td>
+      <td>7.692503e+07</td>
+      <td>109935</td>
+      <td>517.46774</td>
+      <td>4.396367e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 15:30:00</th>
+      <td>85105.85</td>
+      <td>85171.59</td>
+      <td>84785.51</td>
+      <td>84846.58</td>
+      <td>613.42243</td>
+      <td>1744819199999</td>
+      <td>5.211529e+07</td>
+      <td>94193</td>
+      <td>216.13854</td>
+      <td>1.836280e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 16:00:00</th>
+      <td>84846.58</td>
+      <td>85109.67</td>
+      <td>84717.44</td>
+      <td>84844.71</td>
+      <td>332.33469</td>
+      <td>1744820999999</td>
+      <td>2.822522e+07</td>
+      <td>70994</td>
+      <td>129.80743</td>
+      <td>1.102549e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 16:30:00</th>
+      <td>84844.72</td>
+      <td>85226.42</td>
+      <td>84701.23</td>
+      <td>85048.55</td>
+      <td>449.99914</td>
+      <td>1744822799999</td>
+      <td>3.823262e+07</td>
+      <td>73544</td>
+      <td>283.17338</td>
+      <td>2.406503e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 17:00:00</th>
+      <td>85048.54</td>
+      <td>85481.16</td>
+      <td>85022.01</td>
+      <td>85304.37</td>
+      <td>536.19474</td>
+      <td>1744824599999</td>
+      <td>4.571748e+07</td>
+      <td>83115</td>
+      <td>323.85310</td>
+      <td>2.761330e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 17:30:00</th>
+      <td>85304.37</td>
+      <td>85500.00</td>
+      <td>83275.00</td>
+      <td>83281.21</td>
+      <td>2128.39829</td>
+      <td>1744826399999</td>
+      <td>1.792253e+08</td>
+      <td>252444</td>
+      <td>837.64934</td>
+      <td>7.055313e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 18:00:00</th>
+      <td>83281.21</td>
+      <td>84472.31</td>
+      <td>83276.00</td>
+      <td>84386.81</td>
+      <td>1437.97262</td>
+      <td>1744828199999</td>
+      <td>1.205844e+08</td>
+      <td>247700</td>
+      <td>866.98346</td>
+      <td>7.266248e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 18:30:00</th>
+      <td>84386.82</td>
+      <td>84400.09</td>
+      <td>83613.82</td>
+      <td>84029.97</td>
+      <td>613.80468</td>
+      <td>1744829999999</td>
+      <td>5.155434e+07</td>
+      <td>152449</td>
+      <td>253.85967</td>
+      <td>2.132485e+07</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2025-04-16 19:00:00</th>
+      <td>84029.98</td>
+      <td>84226.00</td>
+      <td>83967.62</td>
+      <td>83972.01</td>
+      <td>132.46540</td>
+      <td>1744831799999</td>
+      <td>1.113901e+07</td>
+      <td>38168</td>
+      <td>67.20842</td>
+      <td>5.652450e+06</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="28500ea0-5eba-4a0e-92f2-4bf1412033a7" class="cell code"
+data-execution_count="14">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co">#predict actual price</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>scaled_btc <span class="op">=</span> scaler.transform(btc[[<span class="st">&#39;close&#39;</span>]])</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>scaled_btc <span class="op">=</span> np.array(scaled_btc)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>scaled_prediction <span class="op">=</span> model.predict(np.array([scaled_btc]))</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>prediction <span class="op">=</span> scaler.inverse_transform(scaled_prediction)[<span class="dv">0</span>][<span class="dv">0</span>]</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>prediction</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 63ms/step
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="14">
+<pre><code>np.float32(84362.96)</code></pre>
+</div>
+</div>
+<div id="ed89f5b7-6103-4891-b131-cefee9d40616" class="cell code"
+data-execution_count="15">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co">#compare with real price</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>btc.iloc[:][<span class="st">&#39;close&#39;</span>][<span class="op">-</span><span class="dv">1</span>]</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\2370184923.py:1: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  btc.iloc[:][&#39;close&#39;][-1]
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="15">
+<pre><code>np.float64(83972.01)</code></pre>
+</div>
+</div>
+<div id="36e9d4e1-f801-4096-86ca-1fbd2abfc56e" class="cell code">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co">#simple trading strategy: </span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="co">#we have 1000$ at initial state</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="co">#we spend all money to buy bitcoin when model predict that price will increase more than to fees (one for buy and another one for sell) of actual price</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="co">#than we sell all bitcoins when model predict than price will decrease</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a><span class="co">#we collect data and predict new price every thirty minutes</span></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>money <span class="op">=</span> <span class="dv">1000</span></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>coins <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>want_buy_flg <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a>money_list <span class="op">=</span> [<span class="dv">1000</span>]</span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>coins_list <span class="op">=</span> [<span class="dv">0</span>]</span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a>real_price <span class="op">=</span> []</span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a>predicted_price <span class="op">=</span> [<span class="va">None</span>]</span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a>fee_percent <span class="op">=</span> <span class="fl">0.001</span></span>
+<span id="cb24-18"><a href="#cb24-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-19"><a href="#cb24-19" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb24-20"><a href="#cb24-20" aria-hidden="true" tabindex="-1"></a>    client <span class="op">=</span> Client()</span>
+<span id="cb24-21"><a href="#cb24-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-22"><a href="#cb24-22" aria-hidden="true" tabindex="-1"></a>    lookback_interval <span class="op">=</span> <span class="dv">16</span></span>
+<span id="cb24-23"><a href="#cb24-23" aria-hidden="true" tabindex="-1"></a>    symbol <span class="op">=</span> <span class="st">&#39;BTCUSDT&#39;</span></span>
+<span id="cb24-24"><a href="#cb24-24" aria-hidden="true" tabindex="-1"></a>    interval <span class="op">=</span> client.KLINE_INTERVAL_30MINUTE   </span>
+<span id="cb24-25"><a href="#cb24-25" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-26"><a href="#cb24-26" aria-hidden="true" tabindex="-1"></a>    all_data <span class="op">=</span> pd.DataFrame()</span>
+<span id="cb24-27"><a href="#cb24-27" aria-hidden="true" tabindex="-1"></a>    end_time <span class="op">=</span> pd.Timestamp.utcnow().tz_localize(<span class="va">None</span>) </span>
+<span id="cb24-28"><a href="#cb24-28" aria-hidden="true" tabindex="-1"></a>    start_time <span class="op">=</span> end_time <span class="op">-</span> pd.Timedelta(hours <span class="op">=</span> <span class="dv">8</span>)</span>
+<span id="cb24-29"><a href="#cb24-29" aria-hidden="true" tabindex="-1"></a>    <span class="cf">while</span> start_time <span class="op">&lt;</span> end_time:</span>
+<span id="cb24-30"><a href="#cb24-30" aria-hidden="true" tabindex="-1"></a>        start_str <span class="op">=</span> <span class="bu">str</span>(<span class="bu">int</span>(start_time.timestamp() <span class="op">*</span> <span class="dv">1000</span>))</span>
+<span id="cb24-31"><a href="#cb24-31" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-32"><a href="#cb24-32" aria-hidden="true" tabindex="-1"></a>        klines <span class="op">=</span> client.get_historical_klines(symbol, interval, start_str, limit <span class="op">=</span> <span class="dv">1000</span>)</span>
+<span id="cb24-33"><a href="#cb24-33" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-34"><a href="#cb24-34" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> klines:</span>
+<span id="cb24-35"><a href="#cb24-35" aria-hidden="true" tabindex="-1"></a>            <span class="cf">break</span></span>
+<span id="cb24-36"><a href="#cb24-36" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-37"><a href="#cb24-37" aria-hidden="true" tabindex="-1"></a>        data <span class="op">=</span> pd.DataFrame(klines, columns <span class="op">=</span> [</span>
+<span id="cb24-38"><a href="#cb24-38" aria-hidden="true" tabindex="-1"></a>                                                <span class="st">&#39;timestamp&#39;</span>, <span class="st">&#39;open&#39;</span>, <span class="st">&#39;high&#39;</span>, <span class="st">&#39;low&#39;</span>, <span class="st">&#39;close&#39;</span>, <span class="st">&#39;volume&#39;</span>, <span class="st">&#39;close_time&#39;</span>, </span>
+<span id="cb24-39"><a href="#cb24-39" aria-hidden="true" tabindex="-1"></a>                                                <span class="st">&#39;quote_asset_volume&#39;</span>, <span class="st">&#39;number_of_trades&#39;</span>, <span class="st">&#39;taker_buy_base_asset_volume&#39;</span>,</span>
+<span id="cb24-40"><a href="#cb24-40" aria-hidden="true" tabindex="-1"></a>                                                <span class="st">&#39;taker_buy_quote_asset_volume&#39;</span>, <span class="st">&#39;ignore&#39;</span></span>
+<span id="cb24-41"><a href="#cb24-41" aria-hidden="true" tabindex="-1"></a>                                              ])</span>
+<span id="cb24-42"><a href="#cb24-42" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-43"><a href="#cb24-43" aria-hidden="true" tabindex="-1"></a>        data[<span class="st">&#39;timestamp&#39;</span>] <span class="op">=</span> pd.to_datetime(data[<span class="st">&#39;timestamp&#39;</span>], unit<span class="op">=</span><span class="st">&#39;ms&#39;</span>)</span>
+<span id="cb24-44"><a href="#cb24-44" aria-hidden="true" tabindex="-1"></a>        data.set_index(<span class="st">&#39;timestamp&#39;</span>, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb24-45"><a href="#cb24-45" aria-hidden="true" tabindex="-1"></a>        data <span class="op">=</span> data.<span class="bu">apply</span>(pd.to_numeric, errors <span class="op">=</span> <span class="st">&#39;coerce&#39;</span>)</span>
+<span id="cb24-46"><a href="#cb24-46" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-47"><a href="#cb24-47" aria-hidden="true" tabindex="-1"></a>        all_data <span class="op">=</span> pd.concat([all_data, data])</span>
+<span id="cb24-48"><a href="#cb24-48" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-49"><a href="#cb24-49" aria-hidden="true" tabindex="-1"></a>        start_time <span class="op">=</span> data.index[<span class="op">-</span><span class="dv">1</span>] <span class="op">+</span> pd.Timedelta(minutes <span class="op">=</span> <span class="dv">5</span>)</span>
+<span id="cb24-50"><a href="#cb24-50" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-51"><a href="#cb24-51" aria-hidden="true" tabindex="-1"></a>        time.sleep(<span class="fl">0.5</span>)</span>
+<span id="cb24-52"><a href="#cb24-52" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-53"><a href="#cb24-53" aria-hidden="true" tabindex="-1"></a>    btc <span class="op">=</span> all_data.sort_index().ffill()</span>
+<span id="cb24-54"><a href="#cb24-54" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-55"><a href="#cb24-55" aria-hidden="true" tabindex="-1"></a>    real_price.append(<span class="bu">float</span>(btc.iloc[:][<span class="st">&#39;close&#39;</span>][<span class="op">-</span><span class="dv">1</span>]))</span>
+<span id="cb24-56"><a href="#cb24-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-57"><a href="#cb24-57" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;Real price list: </span><span class="sc">{</span>real_price<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb24-58"><a href="#cb24-58" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;Predicted price list: </span><span class="sc">{</span>predicted_price<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb24-59"><a href="#cb24-59" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-60"><a href="#cb24-60" aria-hidden="true" tabindex="-1"></a>    scaled_btc <span class="op">=</span> scaler.transform(btc[[<span class="st">&#39;close&#39;</span>]])</span>
+<span id="cb24-61"><a href="#cb24-61" aria-hidden="true" tabindex="-1"></a>    scaled_btc <span class="op">=</span> np.array(scaled_btc)</span>
+<span id="cb24-62"><a href="#cb24-62" aria-hidden="true" tabindex="-1"></a>    scaled_prediction <span class="op">=</span> model.predict(np.array([scaled_btc]), verbose <span class="op">=</span> <span class="va">None</span>)</span>
+<span id="cb24-63"><a href="#cb24-63" aria-hidden="true" tabindex="-1"></a>    prediction <span class="op">=</span> scaler.inverse_transform(scaled_prediction)[<span class="dv">0</span>][<span class="dv">0</span>]</span>
+<span id="cb24-64"><a href="#cb24-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-65"><a href="#cb24-65" aria-hidden="true" tabindex="-1"></a>    predicted_price.append(<span class="bu">float</span>(prediction))</span>
+<span id="cb24-66"><a href="#cb24-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-67"><a href="#cb24-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-68"><a href="#cb24-68" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;Prediction: </span><span class="sc">{</span><span class="bu">float</span>(prediction)<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb24-69"><a href="#cb24-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-70"><a href="#cb24-70" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (predicted_price[<span class="op">-</span><span class="dv">1</span>] <span class="op">*</span> (<span class="fl">1.00</span> <span class="op">-</span> (<span class="dv">2</span> <span class="op">*</span> fee_percent))  <span class="op">&gt;</span> real_price[<span class="op">-</span><span class="dv">1</span>]) <span class="kw">and</span> want_buy_flg <span class="op">==</span> <span class="dv">1</span>:</span>
+<span id="cb24-71"><a href="#cb24-71" aria-hidden="true" tabindex="-1"></a>        coins <span class="op">=</span> (money <span class="op">/</span> real_price[<span class="op">-</span><span class="dv">1</span>]) <span class="op">*</span> (<span class="fl">1.00</span> <span class="op">-</span> fee_percent)</span>
+<span id="cb24-72"><a href="#cb24-72" aria-hidden="true" tabindex="-1"></a>        coins_list.append(coins)</span>
+<span id="cb24-73"><a href="#cb24-73" aria-hidden="true" tabindex="-1"></a>        money <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb24-74"><a href="#cb24-74" aria-hidden="true" tabindex="-1"></a>        money_list.append(money)</span>
+<span id="cb24-75"><a href="#cb24-75" aria-hidden="true" tabindex="-1"></a>        want_buy_flg <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb24-76"><a href="#cb24-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-77"><a href="#cb24-77" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (predicted_price[<span class="op">-</span><span class="dv">1</span>]  <span class="op">&lt;</span> real_price[<span class="op">-</span><span class="dv">1</span>]) <span class="kw">and</span> want_buy_flg <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb24-78"><a href="#cb24-78" aria-hidden="true" tabindex="-1"></a>        money <span class="op">=</span> (real_price[<span class="op">-</span><span class="dv">1</span>] <span class="op">*</span> coins) <span class="op">*</span> (<span class="fl">1.00</span> <span class="op">-</span> fee_percent)</span>
+<span id="cb24-79"><a href="#cb24-79" aria-hidden="true" tabindex="-1"></a>        money_list.append(money)</span>
+<span id="cb24-80"><a href="#cb24-80" aria-hidden="true" tabindex="-1"></a>        coins <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb24-81"><a href="#cb24-81" aria-hidden="true" tabindex="-1"></a>        coins_list.append(coins)</span>
+<span id="cb24-82"><a href="#cb24-82" aria-hidden="true" tabindex="-1"></a>        want_buy_flg <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb24-83"><a href="#cb24-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-84"><a href="#cb24-84" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;Money list: </span><span class="sc">{</span>money_list<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb24-85"><a href="#cb24-85" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&#39;Coins list: </span><span class="sc">{</span>coins_list<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb24-86"><a href="#cb24-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-87"><a href="#cb24-87" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;</span><span class="ch">\n</span><span class="st">&#39;</span>)</span>
+<span id="cb24-88"><a href="#cb24-88" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;-----------------------&#39;</span>)</span>
+<span id="cb24-89"><a href="#cb24-89" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;</span><span class="ch">\n</span><span class="st">&#39;</span>)</span>
+<span id="cb24-90"><a href="#cb24-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-91"><a href="#cb24-91" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">150</span>):</span>
+<span id="cb24-92"><a href="#cb24-92" aria-hidden="true" tabindex="-1"></a>        time.sleep(<span class="dv">12</span>)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0]
+Predicted price list: [None]
+Prediction: 84351.8671875
+Money list: [1000, 0]
+Coins list: [0, 0.011907032181168056]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9]
+Predicted price list: [None, 84351.8671875]
+Prediction: 84220.375
+Money list: [1000, 0]
+Coins list: [0, 0.011907032181168056]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99]
+Predicted price list: [None, 84351.8671875, 84220.375]
+Prediction: 84252.1015625
+Money list: [1000, 0, 1003.9484436232419]
+Coins list: [0, 0.011907032181168056, 0]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625]
+Prediction: 84343.3984375
+Money list: [1000, 0, 1003.9484436232419]
+Coins list: [0, 0.011907032181168056, 0]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375]
+Prediction: 84362.515625
+Money list: [1000, 0, 1003.9484436232419]
+Coins list: [0, 0.011907032181168056, 0]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625]
+Prediction: 84454.2421875
+Money list: [1000, 0, 1003.9484436232419]
+Coins list: [0, 0.011907032181168056, 0]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875]
+Prediction: 84528.1484375
+Money list: [1000, 0, 1003.9484436232419]
+Coins list: [0, 0.011907032181168056, 0]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375]
+Prediction: 84551.390625
+Money list: [1000, 0, 1003.9484436232419]
+Coins list: [0, 0.011907032181168056, 0]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625]
+Prediction: 84546.4609375
+Money list: [1000, 0, 1003.9484436232419, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375]
+Prediction: 84476.671875
+Money list: [1000, 0, 1003.9484436232419, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875]
+Prediction: 84361.6953125
+Money list: [1000, 0, 1003.9484436232419, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125]
+Prediction: 84297.5859375
+Money list: [1000, 0, 1003.9484436232419, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375]
+Prediction: 84278.7890625
+Money list: [1000, 0, 1003.9484436232419, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625]
+Prediction: 84311.5390625
+Money list: [1000, 0, 1003.9484436232419, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625]
+Prediction: 84327.0546875
+Money list: [1000, 0, 1003.9484436232419, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875]
+Prediction: 84314.9609375
+Money list: [1000, 0, 1003.9484436232419, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375]
+Prediction: 84334.4765625
+Money list: [1000, 0, 1003.9484436232419, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625]
+Prediction: 84213.6484375
+Money list: [1000, 0, 1003.9484436232419, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375]
+Prediction: 84161.109375
+Money list: [1000, 0, 1003.9484436232419, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375]
+Prediction: 84134.0625
+Money list: [1000, 0, 1003.9484436232419, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81, 84242.36]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375, 84134.0625]
+Prediction: 84175.9375
+Money list: [1000, 0, 1003.9484436232419, 0, 1000.5919059419107]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116, 0]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81, 84242.36, 84459.99]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375, 84134.0625, 84175.9375]
+Prediction: 84256.0859375
+Money list: [1000, 0, 1003.9484436232419, 0, 1000.5919059419107]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116, 0]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81, 84242.36, 84459.99, 84443.33]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375, 84134.0625, 84175.9375, 84256.0859375]
+Prediction: 84326.5546875
+Money list: [1000, 0, 1003.9484436232419, 0, 1000.5919059419107]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116, 0]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81, 84242.36, 84459.99, 84443.33, 84815.0]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375, 84134.0625, 84175.9375, 84256.0859375, 84326.5546875]
+Prediction: 84495.4765625
+Money list: [1000, 0, 1003.9484436232419, 0, 1000.5919059419107]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116, 0]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81, 84242.36, 84459.99, 84443.33, 84815.0, 84395.82]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375, 84134.0625, 84175.9375, 84256.0859375, 84326.5546875, 84495.4765625]
+Prediction: 84713.5390625
+Money list: [1000, 0, 1003.9484436232419, 0, 1000.5919059419107, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116, 0, 0.011844085572436748]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81, 84242.36, 84459.99, 84443.33, 84815.0, 84395.82, 84486.58]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375, 84134.0625, 84175.9375, 84256.0859375, 84326.5546875, 84495.4765625, 84713.5390625]
+Prediction: 84656.3515625
+Money list: [1000, 0, 1003.9484436232419, 0, 1000.5919059419107, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116, 0, 0.011844085572436748]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81, 84242.36, 84459.99, 84443.33, 84815.0, 84395.82, 84486.58, 84325.02]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375, 84134.0625, 84175.9375, 84256.0859375, 84326.5546875, 84495.4765625, 84713.5390625, 84656.3515625]
+Prediction: 84588.4921875
+Money list: [1000, 0, 1003.9484436232419, 0, 1000.5919059419107, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116, 0, 0.011844085572436748]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81, 84242.36, 84459.99, 84443.33, 84815.0, 84395.82, 84486.58, 84325.02, 84355.12]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375, 84134.0625, 84175.9375, 84256.0859375, 84326.5546875, 84495.4765625, 84713.5390625, 84656.3515625, 84588.4921875]
+Prediction: 84537.1328125
+Money list: [1000, 0, 1003.9484436232419, 0, 1000.5919059419107, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116, 0, 0.011844085572436748]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81, 84242.36, 84459.99, 84443.33, 84815.0, 84395.82, 84486.58, 84325.02, 84355.12, 84428.66]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375, 84134.0625, 84175.9375, 84256.0859375, 84326.5546875, 84495.4765625, 84713.5390625, 84656.3515625, 84588.4921875, 84537.1328125]
+Prediction: 84511.171875
+Money list: [1000, 0, 1003.9484436232419, 0, 1000.5919059419107, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116, 0, 0.011844085572436748]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81, 84242.36, 84459.99, 84443.33, 84815.0, 84395.82, 84486.58, 84325.02, 84355.12, 84428.66, 84576.01]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375, 84134.0625, 84175.9375, 84256.0859375, 84326.5546875, 84495.4765625, 84713.5390625, 84656.3515625, 84588.4921875, 84537.1328125, 84511.171875]
+Prediction: 84525.328125
+Money list: [1000, 0, 1003.9484436232419, 0, 1000.5919059419107, 0, 1000.7237743154508]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116, 0, 0.011844085572436748, 0]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81, 84242.36, 84459.99, 84443.33, 84815.0, 84395.82, 84486.58, 84325.02, 84355.12, 84428.66, 84576.01, 84814.0]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375, 84134.0625, 84175.9375, 84256.0859375, 84326.5546875, 84495.4765625, 84713.5390625, 84656.3515625, 84588.4921875, 84537.1328125, 84511.171875, 84525.328125]
+Prediction: 84589.375
+Money list: [1000, 0, 1003.9484436232419, 0, 1000.5919059419107, 0, 1000.7237743154508]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116, 0, 0.011844085572436748, 0]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81, 84242.36, 84459.99, 84443.33, 84815.0, 84395.82, 84486.58, 84325.02, 84355.12, 84428.66, 84576.01, 84814.0, 84776.0]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375, 84134.0625, 84175.9375, 84256.0859375, 84326.5546875, 84495.4765625, 84713.5390625, 84656.3515625, 84588.4921875, 84537.1328125, 84511.171875, 84525.328125, 84589.375]
+Prediction: 84671.578125
+Money list: [1000, 0, 1003.9484436232419, 0, 1000.5919059419107, 0, 1000.7237743154508]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116, 0, 0.011844085572436748, 0]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81, 84242.36, 84459.99, 84443.33, 84815.0, 84395.82, 84486.58, 84325.02, 84355.12, 84428.66, 84576.01, 84814.0, 84776.0, 84614.0]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375, 84134.0625, 84175.9375, 84256.0859375, 84326.5546875, 84495.4765625, 84713.5390625, 84656.3515625, 84588.4921875, 84537.1328125, 84511.171875, 84525.328125, 84589.375, 84671.578125]
+Prediction: 84720.953125
+Money list: [1000, 0, 1003.9484436232419, 0, 1000.5919059419107, 0, 1000.7237743154508]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116, 0, 0.011844085572436748, 0]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81, 84242.36, 84459.99, 84443.33, 84815.0, 84395.82, 84486.58, 84325.02, 84355.12, 84428.66, 84576.01, 84814.0, 84776.0, 84614.0, 84424.0]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375, 84134.0625, 84175.9375, 84256.0859375, 84326.5546875, 84495.4765625, 84713.5390625, 84656.3515625, 84588.4921875, 84537.1328125, 84511.171875, 84525.328125, 84589.375, 84671.578125, 84720.953125]
+Prediction: 84721.7734375
+Money list: [1000, 0, 1003.9484436232419, 0, 1000.5919059419107, 0, 1000.7237743154508, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116, 0, 0.011844085572436748, 0, 0.011841692534600769]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81, 84242.36, 84459.99, 84443.33, 84815.0, 84395.82, 84486.58, 84325.02, 84355.12, 84428.66, 84576.01, 84814.0, 84776.0, 84614.0, 84424.0, 84031.38]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375, 84134.0625, 84175.9375, 84256.0859375, 84326.5546875, 84495.4765625, 84713.5390625, 84656.3515625, 84588.4921875, 84537.1328125, 84511.171875, 84525.328125, 84589.375, 84671.578125, 84720.953125, 84721.7734375]
+Prediction: 84637.5625
+Money list: [1000, 0, 1003.9484436232419, 0, 1000.5919059419107, 0, 1000.7237743154508, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116, 0, 0.011844085572436748, 0, 0.011841692534600769]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>C:\Users\userr\AppData\Local\Temp\ipykernel_11812\1969906219.py:50: FutureWarning: Series.__getitem__ treating keys as positions is deprecated. In a future version, integer keys will always be treated as labels (consistent with DataFrame behavior). To access a value by position, use `ser.iloc[pos]`
+  real_price.append(float(btc.iloc[:][&#39;close&#39;][-1]))
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Real price list: [83900.0, 84090.9, 84399.99, 84474.0, 84381.71, 84408.79, 84430.0, 84489.61, 84355.99, 84160.0, 84002.01, 84171.48, 84248.49, 84299.64, 84200.86, 84121.77, 84165.93, 83932.01, 83922.43, 84024.81, 84242.36, 84459.99, 84443.33, 84815.0, 84395.82, 84486.58, 84325.02, 84355.12, 84428.66, 84576.01, 84814.0, 84776.0, 84614.0, 84424.0, 84031.38, 84073.99]
+Predicted price list: [None, 84351.8671875, 84220.375, 84252.1015625, 84343.3984375, 84362.515625, 84454.2421875, 84528.1484375, 84551.390625, 84546.4609375, 84476.671875, 84361.6953125, 84297.5859375, 84278.7890625, 84311.5390625, 84327.0546875, 84314.9609375, 84334.4765625, 84213.6484375, 84161.109375, 84134.0625, 84175.9375, 84256.0859375, 84326.5546875, 84495.4765625, 84713.5390625, 84656.3515625, 84588.4921875, 84537.1328125, 84511.171875, 84525.328125, 84589.375, 84671.578125, 84720.953125, 84721.7734375, 84637.5625]
+Prediction: 84516.734375
+Money list: [1000, 0, 1003.9484436232419, 0, 1000.5919059419107, 0, 1000.7237743154508, 0]
+Coins list: [0, 0.011907032181168056, 0, 0.01188942830473116, 0, 0.011844085572436748, 0, 0.011841692534600769]
+
+
+-----------------------
+
+
+</code></pre>
+</div>
+</div>
+<div id="ed75c6b7-74ff-40e8-a69d-25d7c21d45cb" class="cell code">
+<div class="sourceCode" id="cb97"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"934e17f4493dc048","version":"2025.4.0-1-g37f21b1","r":1,"token":"0357a45f23a943f08700f7f9af191ee6","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+</body>
+</html>
